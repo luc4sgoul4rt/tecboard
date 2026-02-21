@@ -117,6 +117,7 @@ a {
     margin: 0 214px 40px ;
     width: 340px;
     height: 66px;
+    text-align: center;
 }
 
 /* ta funcionando, mas meu navegador vai me dizer que está tudo errado. Ele mente. */
@@ -124,15 +125,51 @@ a {
 
 }
 
+/* Estilo Mobile */
+
 @media (max-width: 375px ) {
 
     header img{
-        display: block;
-        margin: 32px 0 60px 16px;
-        width: 209.29px;
+        width: 209.29px ;
         height: 34px;
+        margin: 32px 149.71px 60px 16px ;
     }
 
+    h1 {
+        font-size: 40px;
+        width: 341px;
+        margin: 0 auto  ;
+
+    }
+
+    p {
+        font-size: 17px;
+        font-family: "Poppins";
+        width: 341px;
+        margin: 24px auto 40px;
+        text-align:center ;
+    }
+
+    a{
+        width: 251px;
+        margin: 0 auto 40px;
+        font-size: 17px;
+        font-family: "Poppins";
+          
+    
+    }
+
+    main section img {
+        width: 341px ;
+        height: 240.61px;
+        margin: 0 auto
+        
+    }
+
+
+
+
 }
+
 
 
